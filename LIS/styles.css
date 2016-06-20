@@ -38,7 +38,7 @@ h1 {
 	font-weight: bold;
 	background: #6AB840;
 	border-radius: 15px;
-	width: 350px;
+	width: 36.84%;
 	text-align: center;
     -moz-box-shadow: 0px 1px 0px 0px #5240b8;
     -webkit-box-shadow: 0px 1px 0px 0px #5240b8;
@@ -54,7 +54,7 @@ h2, h4, h5, h6 {
 	font-weight: bold;
 	background: #5CB3FF;
 	border-radius: 15px;
-	width: 270px;
+	width: 28.42%;
 	text-align: center;
     -moz-box-shadow: 0px 1px 0px 0px green;
     -webkit-box-shadow: 0px 1px 0px 0px green;
@@ -75,7 +75,7 @@ h2, h4, h5, h6 {
 #container,
 #tafelogo,
 #topbar {
-	width: 950px;
+	width: 100%;
 
 	margin: 0 auto;
 }
@@ -85,7 +85,7 @@ h2, h4, h5, h6 {
 #container {
 	
 	background-color: transparent;
-	height: 680px;
+	height: 71.57%;
 	text-align: left;
 	
 
@@ -95,7 +95,7 @@ h2, h4, h5, h6 {
 
 #tafelogo {
 	background-color: transparent;
-	width: 750px;
+	width: 78.95%;
 	padding: 0 auto;
 	position: relative;
 	top: 20px;
@@ -110,7 +110,7 @@ h2, h4, h5, h6 {
 
 
 #topbar {
-	width: 850px;
+	width: 89.47%;
 	font-weight: bold;
 	height: 1.8em;
 	overflow: show;
@@ -129,8 +129,8 @@ h2, h4, h5, h6 {
 
 #sidebar {
 	float: left;
-	width: 200px;
-	height: 350px;
+	width: 21.05%;
+	height: 36.84%;
 	font-weight: bold;
 	position: relative;
 	top: 52px;
@@ -157,7 +157,7 @@ h2, h4, h5, h6 {
 	background-color: transparent;
 	margin-left: 12em;
 	padding: 0;
-	width: 675px;
+	width: 71.05%;
 	position: relative;
 	top: 45px;
 	left: 45px;
