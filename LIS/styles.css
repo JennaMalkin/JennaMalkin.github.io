@@ -27,9 +27,8 @@ p, tr {
 
 a img {
 	border: none; 
+	max-width: 100%;
 }
-
-
 
 h1 {
 	font-family: "Times New Roman", Times, serif;
@@ -37,7 +36,7 @@ h1 {
 	color: white;
 	font-weight: bold;
 	background: #6AB840;
-	border-radius: 15px;
+	border-radius: 0.9375em;
 	width: 36.84%;
 	text-align: center;
     -moz-box-shadow: 0px 1px 0px 0px #5240b8;
@@ -53,7 +52,7 @@ h2, h4, h5, h6 {
 	color: black;
 	font-weight: bold;
 	background: #5CB3FF;
-	border-radius: 15px;
+	border-radius: 0.9375em;
 	width: 28.42%;
 	text-align: center;
     -moz-box-shadow: 0px 1px 0px 0px green;
@@ -98,8 +97,8 @@ h2, h4, h5, h6 {
 	width: 78.95%;
 	padding: 0 auto;
 	position: relative;
-	top: 20px;
-	left: -25px;
+	top: 1.25em;
+	left: -1.5625em;
 	text-align: left;
 
 }
@@ -116,8 +115,8 @@ h2, h4, h5, h6 {
 	overflow: show;
 	white-space: nowrap;
 	position: relative;
-	top: 32px;
-	left: -25px;
+	top: 2em;
+	left: -1.5625em;
 	z-index: 98;
 	background-color: transparent;
 }
@@ -133,8 +132,8 @@ h2, h4, h5, h6 {
 	height: 36.84%;
 	font-weight: bold;
 	position: relative;
-	top: 52px;
-	left: 25px;
+	top: 3.25em;
+	left: 1.5625em;
 	z-index: 99;
 	background-color: transparent;
 	overflow: show;
@@ -184,7 +183,7 @@ h2, h4, h5, h6 {
 
 #copyright {
 	position: relative;
-	top: 40px;
+	top: 2.5em;
 	left: 12.8125em;
 	width: 37.5em;
 	text-align: center;
@@ -215,13 +214,13 @@ h2, h4, h5, h6 {
 
 .floatright {
 	float: right;
-	padding-left: 15px;
+	padding-left: 0.9375em;
 }
 
 
 .floatleft {
 	float: left;
-	padding-right: 15px;
+	padding-right: 0.9375em;
 	padding-bottom:5px;
 }
 
@@ -279,14 +278,14 @@ h2, h4, h5, h6 {
 
 	box-shadow: 0px 1px 0px 0px #5240b8;
 	background-color: #6AB840;
-	border-radius: 15px;
+	border-radius: 0.9375em;
 	border: none;
 	display:block;
 	color: white;
 	font-family: times, serif;
 	font-size: medium;
 	font-weight: bold;
-	padding: 6px 15px;
+	padding: 6px 0.9375em;
 	margin-bottom: 5px;
 	text-decoration: none;
 	text-align: center;	
@@ -322,12 +321,12 @@ a.bluesmall:active { color: #0000FF; font-size: small; }
 
 	box-shadow:inset 0px 1px 0px 0px green;
 	background-color: #387C2C;
-	border-radius: 15px;
+	border-radius: 0.9375em;
 	border: none;
 	display: inline;
 	color: white;
 	font-family: times, serif;
-	font-size: 24px;
+	font-size: 1.5em;
 	font-weight: bold;
 	padding: 6px 5px;
 	margin-bottom: 5px;
@@ -338,7 +337,7 @@ a.bluesmall:active { color: #0000FF; font-size: small; }
 
 
 .margin {
-	margin: 10px;
+	margin: 0.6250em;
 }
 
 
