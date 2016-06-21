@@ -221,7 +221,8 @@ h2, h4, h5, h6 {
 
 .floatleft {
 	float: left;
-	padding-right: 15px;padding-bottom:5px;
+	padding-right: 15px;
+	padding-bottom:5px;
 }
 
 
