@@ -171,10 +171,10 @@ h2, h4, h5, h6 {
 
 #footerlinks {
 	margin: 0;
-		width: 600px;
+		width: 37.5em;
 	position: relative;
-	top: 53px;
-	left: 225px;
+	top: 3.3125em;
+	left: 14.0625em;
 	background-color: transparent;
 }
 
@@ -185,8 +185,8 @@ h2, h4, h5, h6 {
 #copyright {
 	position: relative;
 	top: 40px;
-	left: 205px;
-	width: 600px;
+	left: 12.8125em;
+	width: 37.5em;
 	text-align: center;
 	background-color: transparent;
 }
@@ -235,14 +235,14 @@ h2, h4, h5, h6 {
 
 	box-shadow: 0px 1px 0px 0px #6AB840;
 	background-color: #5CB3FF;
-	border-radius: 15px;
+	border-radius: 0.9375em;
 	border: none;
 	display:block;
 	color: black;
 	font-family: times, serif;
 	font-size: medium;
 	font-weight: bold;
-	padding: 6px 15px;
+	padding: 6px 0.9375em;
 	margin-bottom: 5px;
 	text-decoration: none;
 	text-align: center;	
