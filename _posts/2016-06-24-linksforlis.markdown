@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Links for LIS"
-date:   2016-06-07 07:56:30 -0400
-categories: jekyll update
+date:   2016-06-24
+categories: LIS
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Check out [page 1][page1] and [page 2][page2].
+
+Check out [page 1][page1] and [page 2][page2].  Don't forget [page 3][page3].
 
 [page1]: http://www.webdesign.sit.edu.au/LIS244/
 [page2]: http://www.webdesign.sit.edu.au/LIS245/
+[page3]: http://www.webdesign.sit.edu.au/LIS015/index.html
