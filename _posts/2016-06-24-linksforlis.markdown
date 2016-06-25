@@ -9,13 +9,21 @@ categories: LIS
 Check out [page 1][page1] and [page 2][page2].  
 
 [Google Analytics][GoogleAnalytics]
+
 [UserReport][UserReport]
+
 [Google Mobile-Friendly Test][GoogleMobileFriendlyTest] - need to do this and fix as many errors as possible.
+
 [World Wide Web Consortium HTML Validator][W3CHTML] - ditto.
+
 [World Wide Web Consortium CSS Validator][W3CCSS] - double ditto.
+
 [10 Free Web-Based Web Site Accessibility Evaluation Tools][UsabilityGeek] - a 2011 post listing 10 free tools that allow you to test if your site is accessible to people with disabilities.
+
 [HTMLDog][HTMLDog] - dated (pre-HTML5), but useful as a quick reference for beginners.
+
 [SitePoint][SitePoint] - generally useful resource to search.  Has some beginners stuff and some pro material.
+
 [A List Apart][ALA] - Thoughtful magazine-style website for professional web designers. 
 
 [page1]: http://www.webdesign.sit.edu.au/LIS244/
