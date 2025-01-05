@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Item Display from Multiple Lists</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        h1 {
+            color: #333;
+        }
+        .item {
+            font-size: 1.2rem;
+            color: #007BFF;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Item Display from Multiple Lists</h1>
+    <button onclick="displayRandomItems()">Show Random Items</button>
+    <div id="randomItems">
+        <div id="item1" class="item"></div>
+        <div id="item2" class="item"></div>
+        <div id="item3" class="item"></div>
+        <div id="item4" class="item"></div>
+        <div id="item5" class="item"></div>
+        <div id="item6" class="item"></div>
+    </div>
+
+    <script>
+        const list1 = ["Apple", "Banana", "Cherry"];
+        const list2 = ["Dog", "Cat", "Rabbit"];
+        const list3 = ["Car", "Bike", "Bus"];
+        const list4 = ["Red", "Blue", "Green"];
+        const list5 = ["Piano", "Guitar", "Violin"];
+        const list6 = ["Pizza", "Burger", "Sushi"];
+
+        function getRandomItem(list) {
+            const randomIndex = Math.floor(Math.random() * list.length);
+            return list[randomIndex];
+        }
+
+        function displayRandomItems() {
+            document.getElementById("item1").textContent = getRandomItem(list1);
+            document.getElementById("item2").textContent = getRandomItem(list2);
+            document.getElementById("item3").textContent = getRandomItem(list3);
+            document.getElementById("item4").textContent = getRandomItem(list4);
+            document.getElementById("item5").textContent = getRandomItem(list5);
+            document.getElementById("item6").textContent = getRandomItem(list6);
+        }
+    </script>
+</body>
+</html>
